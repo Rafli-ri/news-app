@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+body {
+    /* background-color: #fbfdff; */
+    background-color: hsl(0, 0%, 97%);
+    font-family: "Open Sans", sans-serif;
+}
+
+.row .col-md-8 .card-post {
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.row .col-md-8 .card-post:hover {
+    transition: all 0.19s ease-in;
+    transform: translateY(-2px);
+    /*box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    */
+    box-shadow: 0 10px 10px hsla(0, 0%, 0%, 0.1);
+    -webkit-transition: all 0.19s ease-in;
+    -moz-transition: all 0.19s ease-in;
+    -ms-transition: all 0.19s ease-in;
+    -o-transition: all 0.19s ease-in;
+}
+
+div.card.mb-3.blog-topics {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+a h5.card-title.mt-2:hover {
+    text-decoration: underline;
+    color: #696cff;
+}
+
+.col-lg-2 div.bg-secondary.fs-3.text-center.text-white:hover {
+    background: #ffffff;
+}
+
+a.btn.fw-bold.blog-topic {
+    background: hsl(210, 38%, 95%);
+    color: hsl(216, 15%, 52%);
+}
+a.btn.fw-bold.blog-topic:hover {
+    background: hsl(216, 15%, 52%);
+    color: #ffffff;
+}
+
+div.form-floating.mb-3.text-black-50 input#email.form-control.border-0 {
+    background: rgba(127, 144, 162, 0.1);
+}
+
+div.form-floating.mb-4.text-black-50 input#password.form-control.border-0 {
+    background: rgba(127, 144, 162, 0.1);
+}
+
+div.form-floating.mb-3.text-black-50 > input {
+    background: rgba(127, 144, 162, 0.1);
+}
