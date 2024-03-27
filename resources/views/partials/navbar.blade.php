@@ -17,7 +17,7 @@
       </ul>
       @auth
         <div class="dropdown">
-          Welcome Back,
+          Welcome Back
           <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
             {{ auth()->user()->name }}
           </button>
@@ -40,7 +40,7 @@
           <a href="/login" class="btn btn-primary text-bold" >Login</a>
         </div>
         <div class="">
-          <a href="/register" class="btn btn-outline-primary text-bold" >Register</a>
+          <a href="/register" class="btn btn-outline-primary text-bold">Register</a>
         </div>
       </div>
       @endauth

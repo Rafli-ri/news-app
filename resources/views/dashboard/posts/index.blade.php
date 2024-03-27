@@ -17,7 +17,7 @@
 
 <div class="card">
   <div class="card-header pb-0">
-    <h4>Projects table</h4>
+    <h4>Post</h4>
     <a href="/dashboard/posts/create" class="btn btn-primary"><span class="mb-1 tf-icons bx bx-plus"></span>&nbsp; Add New Post</a>
   </div>
   

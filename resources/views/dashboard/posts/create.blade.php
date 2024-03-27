@@ -73,7 +73,6 @@
     </div>
 </div>
 <script>
-
     const title = document.querySelector('#title');
     const slug = document.querySelector('#slug');
 
@@ -85,7 +84,7 @@
 
     document.addEventListener('trix-file-accept', function(e){
         e.preventDefault();
-    })
+    });
 
 function previewImage(){
     const image = document.querySelector('#image');

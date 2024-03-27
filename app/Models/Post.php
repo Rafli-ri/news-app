@@ -5,12 +5,14 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Auth\User;
+use Cviebrock\EloquentSluggable\Sluggable;
 
 use Illuminate\Support\Str;
 
 class Post extends Model
 {
     use HasFactory;
+    use Sluggable;
 
     const EXCERPT_LENGTH = 130;
     

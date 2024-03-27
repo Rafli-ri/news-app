@@ -33,7 +33,7 @@ class PostController extends Controller
             // "posts" => Post::all()
             // "posts" => Post::latest()->get()
             // "posts" => Post::latest()->filter(request(['search', 'category', 'author']))->get()
-            "posts" => Post::latest()->filter(request(['search', 'category', 'author']))->paginate(7)->withQueryString(),
+            "posts" => Post::latest()->filter(request(['search', 'category', 'author']))->paginate(5)->withQueryString(),
             // "posts" => $posts->get()
             'categories'=> Category::all(),
         ]);
